@@ -6,6 +6,7 @@
 
 .header {
     background-color: #1F2937;
+    padding: 16px;
 }
 
 .logo {
@@ -20,6 +21,49 @@
     align-items: center;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+.header-content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.h-left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 8px;
+    margin-right: 105px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 24px;
+    border-radius: 10px;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+img {
+    width: 400px;
+    height: 200px;
 }
 
 a {
