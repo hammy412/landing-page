@@ -25,6 +25,7 @@
 
 .header-content {
     margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,4 +77,13 @@ ul {
     display: flex;
     gap: 35px;
     font-size: 18px;
+}
+
+.rand-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
